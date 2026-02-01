@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <form action="">
+      <p class="text">SignUP</p>
+      <p class="error"></p>
+      FullName
+      <input
+        type="text"
+        name="fullname"
+        placeholder="Enter full name"
+        class="fullname"
+        min="3"
+        max="20"
+      />
+      <br />
+      Email
+      <input
+        type="email"
+        name="email"
+        class="email"
+        placeholder="Enter your email "
+        max="30"
+        min="10"
+      />
+      <br />
+      Password
+      <input
+        type="password"
+        name="password"
+        class="password"
+        placeholder="Enter your password "
+        min="10"
+        max="30"
+      />
+      <br />
+      Confirm password
+      <input
+        type="password"
+        name="confirmpassword"
+        class="confirmpassword"
+        placeholder="confirm your password "
+        min="10"
+        max="30"
+      />
+
+      <br />
+      Phone number
+      <input
+        type="number"
+        class="phonenumber"
+        name="phonenumber"
+        placeholder="+251"
+      />
+      <br />
+      Gender
+      <br />Female
+      <input type="radio" value="Female" name="gender" checked />
+      <br />
+      Male
+      <input type="radio" value="male" name="gender" />
+      <br />
+      Age
+      <input type="number" name="age" min="17" />
+      <br />
+      Select your Role
+      <br />
+      student
+      <input type="radio" name="role" value="student" checked />
+      teacher
+      <input type="radio" name="role" value="teacher" />
+      <div id="extraFields"></div>
+
+      <br />
+      <br />
+      <input type="submit" value="SignUp" class="submitBtn" />
+    </form>
+    <script src="signUp.js"></script>
+  </body>
+</html>

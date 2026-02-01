@@ -1,0 +1,9 @@
+StudentID,StudentName,Year,Semester,Course,Score,CreditHour
+101,John Doe,1,1,Math,85,3
+101,John Doe,1,1,Science,90,4
+101,John Doe,1,1,English,88,3
+101,John Doe,1,2,Programming,92,4
+101,John Doe,1,2,Physics,81,3
+102,Jane Smith,1,1,Math,92,3
+102,Jane Smith,1,1,Science,88,4
+102,Jane Smith,1,1,English,94,3

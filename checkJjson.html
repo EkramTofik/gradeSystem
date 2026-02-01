@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Student Grade Converter</title>
+    <!-- Load Papa Parse 2026 stable version -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  </head>
+  <body>
+    <h2>Upload Student Grades CSV</h2>
+    <input type="file" id="upload" accept=".csv" />
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        let input = document.querySelector("#upload");
+        input.addEventListener("change", (event) => {
+          const file = event.target.files[0];
+          if (!file) return;
+          Papa.parse(file, {
+            header: true,
+            dynamicTyping: true,
+            complete: async function (results) {
+              const students = results.data;
+              // Loop through students and send each to the JSON Server
+              for (const student of students) {
+                if (!student.StudentID || !student.StudentName) continue;
+                await fetch("http://localhost:3000/students", {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify(student),
+                });
+              }
+              alert("All students uploaded to JSON Server!");
+            },
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

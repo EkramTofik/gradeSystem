@@ -1,0 +1,4 @@
+StudentID,StudentName,Year,Semester,Course,Score,CreditHour
+101,John Doe,1,2,java,85,3
+101,John Doe,1,2,css,90,4
+101,John Doe,1,2,php,88,3

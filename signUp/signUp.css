@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+form {
+  border: 1px solid;
+  width: 250px;
+  height: fit-content;
+  padding: 20px;
+}

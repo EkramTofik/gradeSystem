@@ -1,0 +1,152 @@
+{
+  "users": [
+    {
+      "id": "c1f6",
+      "fullname": "Ekram",
+      "email": "tofikekram107@gmail.com",
+      "password": "Ekru123@smart",
+      "phone": "0944882112",
+      "gender": "Female",
+      "role": "student",
+      "files": [
+        {
+          "name": "sibling-track-payment-history-Sarah Johnson-2025-09-07.pdf",
+          "type": "application/pdf",
+          "size": 943
+        },
+        {
+          "name": "Service Catalogue for 23 Institutions.pdf",
+          "type": "application/pdf",
+          "size": 845922
+        },
+        {
+          "name": "Copy of Week 6 Milestone Worksheet - Professional Foundations.pdf",
+          "type": "application/pdf",
+          "size": 206919
+        }
+      ],
+      "status": "approved",
+      "identification": 5866
+    },
+    {
+      "id": "6122",
+      "fullname": "reyan",
+      "email": "reyanabdi967@gmail.com",
+      "password": "ekru6482@gmail.com",
+      "phone": "0909847265",
+      "gender": "Female",
+      "role": "teacher",
+      "files": [
+        {
+          "name": "notification-1 (1).pdf",
+          "type": "application/pdf",
+          "size": 3783
+        },
+        {
+          "name": "Digital-Registration-System (1).pptx.pdf",
+          "type": "application/pdf",
+          "size": 6419736
+        },
+        {
+          "name": "Chapter 1- Introduction.pdf",
+          "type": "application/pdf",
+          "size": 1190838
+        },
+        {
+          "name": "Chapter 3- Process Synchronization.pdf",
+          "type": "application/pdf",
+          "size": 1909098
+        }
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "2d40",
+      "fullname": "mohammed",
+      "email": "ekru6482@gmail.com",
+      "password": "Moh123@jemal",
+      "phone": "0958438921",
+      "gender": "Female",
+      "role": "student",
+      "files": [
+        {
+          "name": "Chapter 1- Introduction.pdf",
+          "type": "application/pdf",
+          "size": 1190838
+        },
+        {
+          "name": "Chapter 3- Process Synchronization.pdf",
+          "type": "application/pdf",
+          "size": 1909098
+        },
+        {
+          "name": "Group 5 SRE.pdf",
+          "type": "application/pdf",
+          "size": 187428
+        }
+      ],
+      "status": "approved",
+      "identification": 4708
+    },
+    {
+      "id": "6127",
+      "fullname": "adil",
+      "email": "aadil967@gmail.com",
+      "password": "ekru6482@gmail.com",
+      "phone": "0909847265",
+      "gender": "Male",
+      "role": "teacher",
+      "files": [
+        {
+          "name": "notification-1 (1).pdf",
+          "type": "application/pdf",
+          "size": 3783
+        },
+        {
+          "name": "Digital-Registration-System (1).pptx.pdf",
+          "type": "application/pdf",
+          "size": 6419736
+        },
+        {
+          "name": "Chapter 1- Introduction.pdf",
+          "type": "application/pdf",
+          "size": 1190838
+        },
+        {
+          "name": "Chapter 3- Process Synchronization.pdf",
+          "type": "application/pdf",
+          "size": 1909098
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "810e",
+      "fullname": "adil",
+      "email": "ek231@gmail.com",
+      "password": "Ekru123@tofik",
+      "phone": "0987492367",
+      "gender": "Female",
+      "role": "student",
+      "files": [
+        {
+          "name": "Untitled Diagram.drawio.pdf",
+          "type": "application/pdf",
+          "size": 53732
+        },
+        {
+          "name": "sibling-track-payment-history-Sarah Johnson-2025-09-04.pdf",
+          "type": "application/pdf",
+          "size": 948
+        },
+        {
+          "name": "Service Catalogue for 23 Institutions.pdf",
+          "type": "application/pdf",
+          "size": 845922
+        }
+      ],
+      "status": "approved",
+      "identification": 3735
+    }
+  ]
+}
