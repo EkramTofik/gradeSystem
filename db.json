@@ -148,5 +148,15 @@
       "status": "approved",
       "identification": 3735
     }
+  ],
+  "courses": [
+    {
+      "id": "3541",
+      "title": "maths",
+      "year": "1",
+      "semester": "1",
+      "department": "none",
+      "creditHour": "3"
+    }
   ]
 }

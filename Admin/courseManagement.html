@@ -4,23 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="courseMgt.css" />
   </head>
   <body>
     <button class="addCourses">add courses</button>
-    <div class="hidden"></div>
-    <form action="" calss="form hidden">
+    <form action="" class="form hidden">
       title
-      <input type="text" />
+      <input type="text" class="title" />
+      <br />
       <br />
       year
-      <input type="number" />
+      <input type="number" class="year" />
+      <br />
       <br />
       semester
-      <input type="number" /><br />
+      <input type="number" class="semester" /><br />
+      <br />
       department
-      <input type="text" /><br />
+      <input type="text" class="department" /><br />
+      <br />
       creditHour
-      <input type="number" />
+      <input type="number" class="creditHour" /> <br />
+      <br />
+      <button type="submit" class="insertBtn">insert</button>
     </form>
+    <div class="hidden"></div>
+    <table class="table hidden">
+      <thead>
+        <th>title</th>
+        <th>year</th>
+        <th>semester</th>
+        <th>department</th>
+        <th>creditHour</th>
+      </thead>
+    </table>
   </body>
+  <script src="courseMgt.js"></script>
 </html>
